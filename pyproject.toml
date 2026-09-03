@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pbpmcd"
+version = "1.0.0"
+description = "Predictive business process model-based concept drift detection"
+requires-python = ">=3.9"
+dependencies = [
+  "numpy>=1.23,<3",
+  "torch>=1.11",
+]
+
+[project.optional-dependencies]
+notebook = ["jupyter>=1.0"]
+
+[tool.setuptools.packages.find]
+include = ["pbpmcd*"]

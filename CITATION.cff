@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use PBPMCD, please cite the accompanying IEICE article."
+title: "PBPMCD"
+type: software
+version: 1.0.0
+authors:
+  - family-names: Fang
+    given-names: Songsong
+  - family-names: Han
+    given-names: Shicong
+  - family-names: Chen
+    given-names: Yue
+  - family-names: Sun
+    given-names: Xiaoxiao
+date-released: 2026-09-01

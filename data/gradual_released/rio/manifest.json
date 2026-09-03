@@ -1,0 +1,65 @@
+{
+  "dataset": "rio_gradual_5k",
+  "source_file": "RIO5k.MXML",
+  "source_sha256": "ef016028f4e0d6fdb1ff285c810958ce6f6c56c56d7e4da7b9a7a3fe234d59b6",
+  "seed": 3459,
+  "trace_count": 5000,
+  "phase_size": 1000,
+  "phases": [
+    "base",
+    "linear_base_to_modified",
+    "modified",
+    "linear_modified_to_base",
+    "base"
+  ],
+  "ground_truth_intervals": [
+    [
+      1000,
+      2000
+    ],
+    [
+      3000,
+      4000
+    ]
+  ],
+  "sampling": "deterministic resampling with replacement",
+  "phase_regime_counts": {
+    "base": [
+      1000,
+      504,
+      0,
+      485,
+      1000
+    ],
+    "modified": [
+      0,
+      496,
+      1000,
+      515,
+      0
+    ]
+  },
+  "activity_mapping": {
+    "Appraise property": 0,
+    "Approve application": 1,
+    "Assess eligibility": 2,
+    "Assess loan risk": 3,
+    "Cancel application": 4,
+    "Check  application  form completeness": 5,
+    "Check credit history": 6,
+    "Check if home insurance quote is requested": 7,
+    "Loan  application approved": 8,
+    "Loan  application canceled": 9,
+    "Loan  application received": 10,
+    "Loan application rejected": 11,
+    "Prepare acceptance pack": 12,
+    "Receive updated application": 13,
+    "Reject application": 14,
+    "Return application back to applicant": 15,
+    "Send acceptance pack": 16,
+    "Send home insurance quote": 17,
+    "Verify repayment agreement": 18
+  },
+  "case_provenance_file": "rio_case_provenance.csv",
+  "event_log_file": "rio_gradual_5k.csv"
+}

@@ -1,0 +1,66 @@
+{
+  "dataset": "roi_gradual_5k",
+  "source_file": "ROI5k.MXML",
+  "source_sha256": "75a5b1575f7287a3326da0655e2739e8738d990ac0ae836328de896cfe5763d3",
+  "seed": 3460,
+  "trace_count": 5000,
+  "phase_size": 1000,
+  "phases": [
+    "base",
+    "linear_base_to_modified",
+    "modified",
+    "linear_modified_to_base",
+    "base"
+  ],
+  "ground_truth_intervals": [
+    [
+      1000,
+      2000
+    ],
+    [
+      3000,
+      4000
+    ]
+  ],
+  "sampling": "deterministic resampling with replacement",
+  "phase_regime_counts": {
+    "base": [
+      1000,
+      498,
+      0,
+      497,
+      1000
+    ],
+    "modified": [
+      0,
+      502,
+      1000,
+      503,
+      0
+    ]
+  },
+  "activity_mapping": {
+    "Appraise_property": 0,
+    "Approve_application": 1,
+    "Assess_eligibility": 2,
+    "Assess_loan_risk": 3,
+    "Cancel_application": 4,
+    "Check__application__form_completeness": 5,
+    "Check_credit_history": 6,
+    "Check_if_home_insurance_quote_is_requested": 7,
+    "Loan__application_approved": 8,
+    "Loan__application_canceled": 9,
+    "Loan__application_received": 10,
+    "Loan_application_rejected": 11,
+    "Prepare_acceptance_pack": 12,
+    "Receive_updated_application": 13,
+    "Reject_application": 14,
+    "Replaced_Activity": 15,
+    "Return_application_back_to_applicant": 16,
+    "Send_acceptance_pack": 17,
+    "Send_home_insurance_quote": 18,
+    "Verify_repayment_agreement": 19
+  },
+  "case_provenance_file": "roi_case_provenance.csv",
+  "event_log_file": "roi_gradual_5k.csv"
+}

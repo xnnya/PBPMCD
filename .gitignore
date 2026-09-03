@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+pbpmcd/datasets/
+pbpmcd/outputs/
+checkpoints/
+*.pt
+*.pth
+*.log
+tmp/
